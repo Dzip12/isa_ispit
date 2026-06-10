@@ -1,0 +1,5 @@
+package com.example.isa.exceptions;
+
+public class BaseException extends RuntimeException {
+    public BaseException(String message) {super(message);}
+}
