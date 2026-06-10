@@ -1,0 +1,91 @@
+.page {
+  padding: 20px 0 40px;
+}
+
+.heading {
+  margin-bottom: 24px;
+}
+
+.heading h1 {
+  margin-bottom: 8px;
+  font-size: 32px;
+}
+
+.heading p {
+  margin: 0;
+  color: #6c757d;
+}
+
+.loading {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.cart {
+  margin-bottom: 24px;
+  padding: 16px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background: #f8f9fa;
+}
+
+.cart h5 {
+  margin-bottom: 12px;
+}
+
+.cart p {
+  margin-bottom: 8px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.image,
+.noImage {
+  width: 100%;
+  height: 170px;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.noImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+  color: #6c757d;
+}
+
+.cardBody {
+  padding: 16px;
+}
+
+.cardBody h5 {
+  margin-bottom: 8px;
+}
+
+.cardBody p {
+  margin-bottom: 8px;
+  color: #6c757d;
+}
+
+.productActions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
